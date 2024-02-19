@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("../fonts/BYekan-webfont.eot") format("eot"), url("../fonts/BYekan-webfont.woff") format("woff"), url("../fonts/BYekan-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+html , #root{
+    height: 100%;
+}
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/big-back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+*{
+    font-family: BYekan;
+    direction: rtl;
+    text-align: right;
+}
+
+.dir_ltr{
+    direction: ltr !important; 
+}
+
+.pointer{
+    cursor: pointer !important;
+}
+
+.transition_200{
+    transition: all 200ms ease;
+}
+.text_hover_shadow:hover{
+    text-shadow: 0 0 3px black;
+}
+.text_shdow{
+    text-shadow: 0 0 8px rgb(14, 215, 241);
+}
+
+.lathin_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.h_fit{
+    height: fit-content;
+}
+
+.h-100-vh{
+    height: 100vh;
+}
+
+.auth_box{
+   border-radius: 0.5rem;
+   min-height: 50vh;
+   background: rgba(255, 255, 255, 0.486);
+   backdrop-filter: blur(3px);
+   -webkit-backdrop-filter: blur(3px);
+   border: 1px solid rgba(255, 255, 255, 0.18);
+   box-shadow: 0 0 30px rgba(128, 128, 128, 0.219);
+}
+
+
+
+
+
+
+
